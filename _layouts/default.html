@@ -9,8 +9,10 @@ title: stellasBlog
     <title>{{page.title}}</title>
   </head>
   <body>
+    <div>
+      {% include navigation.html %}
+      </div>
     <h1>
-	{% include navigation.html %}
 	{{ content }}
     </h1>
   </body>
